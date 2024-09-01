@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="img/logo2.jpg">
+    <title>ExpressAbled</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <!-- Preloader Start -->
+  <div class="preloader">
+    <span></span>
+  </div>
+  <!-- Preloader End -->
+
+
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">ExpressAbled</a>
+
+        <!-- Toggler/collapsible Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://srushtiharyan.github.io/ASL-to-Text/" target="_blank">ASL-to-Text</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://172.16.31.23:5000/">Image Captioning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://w35573.github.io/speech-to-text/" target="_blank">Speech-to-Text</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Home Section Start-->
+    <section class="home d-flex align-items-center">
+      <div class="effect-wrap">
+        <i class="fas fa-plus effect effect-1"></i>
+        <i class="fas fa-plus effect effect-2"></i>
+        <i class="fas fa-circle-notch effect effect-3"></i>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <div class="home-text">
+              <h1>Unexpressed emotions will die no more!</h1>
+
+              <p>
+                We at ExpressAbled have an aim of connecting the people with auditory and visual disabilities with the world by implementing various methods to overcome the obstacles of communication.
+              </p>
+
+              <div class="home-btn">
+                <a href="https://drive.google.com/file/d/1n44cUe5R5vOZvYJt_lyJIrFUFtj17eXG/view?usp=sharing" target="_blank" class="btn btn-1">Learn More</a>
+                <button type="button" class="btn btn-1 video-play-btn">
+                  <i class="fas fa-play"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 text-center">
+            <div class="home-img">
+              <div class="circle"></div>
+              <img src="img/img1.gif" alt="ExpressAbled" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section End-->
+
+    <!-- Video Pop-up Start -->
+
+    <div class="video-popup">
+      <div class="video-popup-inner">
+        <i class="fas fa-times video-popup-close"></i>
+        <div class="iframe-box">
+          <iframe
+            id="player-1"
+            src="https://drive.google.com/file/d/17jIzn5v1ojE-eixH-Kn3zj6FSjnpQAYK/preview"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- Video Pop-up End -->
+
+    <!-- Features section start -->
+
+    <section class="features section-padding" id="featuresID">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>awesome <span>features</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="features-carousel owl-carousel">
+            <div class="feature-item">
+              <div class="icon"><i class="fas fa-code"></i></div>
+              <h3>ASL to Text</h3>
+              <p id="p1">
+                Converts ASL gestures into text. Helps people with auditory disabilities to communicate fluently with people who do not understand sign language.
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <div class="icon"><i class="fas fa-edit"></i></div>
+              <h3>Image Captioning</h3>
+              <p id="p2">
+                Describes the image provided by the user into text caption. Helps people with visual impairment to by generating a textual description of the image.
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <div class="icon"><i class="fas fa-paint-brush"></i></div>
+              <h3>Speech-to-Text</h3>
+              <p id="p3">
+                Captures the voice of the user via microphone and converts it to text. Generates text in real-time with high accuracy just through microphone.
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <div class="icon"><i class="fas fa-check"></i></div>
+              <h3>User friendly</h3>
+              <p id="p4">
+                Our website is easy to use with well-defined navigation through all the features. No requirement of any equipment for access which makes it cost-effective.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section end -->
+
+    <!-- Fun Facts section start -->
+
+    <section class="fun-facts section-padding">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-5 d-flex align-items-center justify-content-center"
+          >
+            <div class="fun-facts-img">
+              <img src="img/img1.gif" alt="fun facts" />
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-7">
+            <div class="section-title">
+              <h2>why <span>us?</span></h2>
+            </div>
+
+            <div class="fun-facts-text">
+              <p>
+                We have incorporated 3 autonomous features under one website. We have taken care for precision, accuracy and providing instant output in real-time for every feature, keeping in mind the user-friendly interface for easy access.
+              </p>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="fun-fact-item style-1">
+                    <h3>Precise</h3>
+                    <span>ASL-to-Text</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="fun-fact-item style-2">
+                    <h3>Accurate</h3>
+                    <span>Image Captioning</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="fun-fact-item style-3">
+                    <h3>Realtime</h3>
+                    <span>Speech-to-Text</span>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="fun-fact-item style-4">
+                    <h3>3 Things</h3>
+                    <span>Under one roof</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fun Facts section end -->
+
+    <!-- App Screenshot Section Start -->
+
+    <section class="screenshots section-padding" id="screenshotsID">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>app <span>screenshots</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="owl-carousel screenshots-carousel">
+            <div class="screenshot-item">
+              <img src="img/app-screenshots/1.png" alt="screenshot" />
+            </div>
+
+            <div class="screenshot-item">
+              <img src="img/app-screenshots/2.png" alt="screenshot" />
+            </div>
+
+            <div class="screenshot-item">
+              <img src="img/app-screenshots/3.png" alt="screenshot" />
+            </div>
+
+            <div class="screenshot-item">
+              <img src="img/app-screenshots/4.png" alt="screenshot" />
+            </div>
+
+            <div class="screenshot-item">
+              <img src="img/app-screenshots/5.png" alt="screenshot" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- App Screenshot Section End -->
+
+    <!-- How It Works Section Start -->
+
+    <section class="how-it-works section-padding" id="how-it-worksID">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>how it <span>works</span></h2> 
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="how-it-works-item line-right">
+              <div class="step">1</div>
+              <h3>ASL-to-Text</h3>
+              <p>Live captured images are converted into vectors using pre-trained MobileNet CNN model. This trained dataset is used to predict the new gesture which is done using kNN classification.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="how-it-works-item line-right">
+              <div class="step">2</div>
+              <h3>Image Caption</h3>
+              <p>Images can be provided by users and can be interpreted by using both Convolutional and recurrent neural networks (Resnet50 architecture and LSTM) to give apt captions for the same.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="how-it-works-item">
+              <div class="step">3</div>
+              <h3>Speech-to-Text</h3>
+              <p>The user speaks through a microphone, the device detects the voice and converts it to text using open-source Web Speech API to convert speech to text in real-time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faq Section Starts -->
+
+    <section class="faq section-padding" id="faqID">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>frequently <span>asked</span> questions</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div id="accordion">
+              <div class="accordion-item">
+                <div class="accordion-header" data-toggle="collapse" data-target="#collapse-01">
+                  <h3>Do I require a special kind of gear/glove for gesture detection?</h3>
+                </div>
+
+                <div class="collapse show" id="collapse-01" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>No, there is no requirement of any additional equipment. You will only require a decent PC/laptop with web camera.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-02">
+                  <h3>Is there any specification for image resolution?</h3>
+                </div>
+
+                <div class="collapse" id="collapse-02" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>No, there are no specifications on image resolution or dimension, just upload the image in jpg or jpeg or png format.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-03">
+                  <h3>Why speech-to-text feature is not working in my browser?</h3>
+                </div>
+
+                <div class="collapse" id="collapse-03" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>Speech-to-Text feature uses Web-Speech-API which is not compatible with all browsers. We recommend you to use Google Chrome. For more information, please visit <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API#browser_compatibility" target="_blank">this website</a>.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-04">
+                  <h3>Do I need to train the model every time I want to use it?</h3>
+                </div>
+
+                <div class="collapse" id="collapse-04" data-parent="#accordion">
+                  <div class="accordion-body">
+                    <p>No, you will need to train your model only when you are using it for the first time. Once created, you can download your dataset. The next time you want to use the same dataset, you can simply upload that .json file and you are good to go!</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faq Section End -->
+
+    <!-- Contact Section Start -->
+
+    <section class="contact section-padding" id="contactID">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>get in <span>touch</span> </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-5">
+            <div class="contact-info">
+              <h3>For Any Queries and Support</h3>
+              <div class="contact-info-item">
+                <i class="fas fa-location-arrow"></i>
+                <h4>College</h4>
+                <p>Sardar Patel Institute of Technology, Andheri (W), Mumbai</p>
+              </div>
+
+              <div class="contact-info-item">
+                <i class="fas fa-location-arrow"></i>
+                <h4>Write to us at</h4>
+                <p>expressabled@gmail.com</p>
+              </div>
+
+              <div class="contact-info-item">
+                <i class="fas fa-phone"></i>
+                <h4>Call us on</h4>
+                <p>+91 9172494383</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-7">
+            <div class="contact-form">
+              <form action="https://formsubmit.co/srushant23@gmail.com" method="POST">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="text" name="name" placeholder="Your Name" class="form-control">
+                    </div>
+                  </div>
+                  
+                  <input type="hidden" name="_autoresponse" value="Hey! Thank you for your Response. We are glad to connect with you!  &#10Regards &#10Team ExpressAbled">
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="text" name="email" placeholder="Your Email" class="form-control">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Your Phone" class="form-control">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" name="_subject" placeholder="Subject" class="form-control">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea name="message" placeholder="Your Message" class="form-control"></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-2">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-col">
+              <h3>About Us</h3>
+              <p>We at ExpressAbled believe that every person has the right to communicate with those who cannot hear or speak the same way that you do.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-col">
+              <h3>References</h3>
+              <ul>
+                <li><a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm" target="_blank">KNN</a> </li>
+                <li><a href="https://iq.opengenus.org/resnet50-architecture/" target="_blank">Resnet-50</a> </li>
+                <li><a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/" target="_blank">LSTM</a> </li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API" target="_blank">Web Speech API</a> </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-col">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#featuresID">Features</a> </li>
+                <li><a href="#how-it-worksID">How It Works</a> </li>
+                <li><a href="#screenshotsID">Screenshots</a> </li>
+                <li><a href="#faqID">FAQs</a> </li>
+                <li><a href="#contactID">Get In Touch</a> </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-col">
+              <h3>Social Pages</h3>
+              <ul>
+                <li><a href="https://github.com/w35573" target="_blank">GitHub</a> </li>
+                <li><a href="https://twitter.com/HaryanSrushti" target="_blank">Twitter</a> </li>
+                <li><a href="https://in.linkedin.com/in/rupin-malik-0a2673210" target="_blank">LinkedIn</a> </li>
+                <li><a href="https://www.instagram.com/w35573/"target="_blank">Instagram</a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="copyright-text">&copy; ExpressAbled 2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- Toggle Theme Start -->
+
+    <div class="toggle-theme">
+      <i class="fas"></i>
+    </div>
+
+    <!-- Toggle Theme  End -->
+
+    <!-- jquery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- ScrollIt js -->
+    <script src="js/scrollIt.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
